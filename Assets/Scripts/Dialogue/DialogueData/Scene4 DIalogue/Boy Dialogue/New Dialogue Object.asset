@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b559f687f5bdfeb42881317b7ca10778, type: 3}
+  m_Name: New Dialogue Object
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Hey Brother, ever heard of Buroinjin?
+
+    It''s a really fun ball game a bit
+    similar to Rugby.'
+  - 'A few of the other kids have gone over to the clearing to play. '
+  - Did you want to join us?
+  responses:
+  - responseText: Sure
+    dialogueObject: {fileID: 11400000, guid: 85784bebff3bac74280a66c73986e806, type: 2}
+  - responseText: Maybe next time
+    dialogueObject: {fileID: 11400000, guid: 127e6e97918cd4249a8efb099b98293c, type: 2}
